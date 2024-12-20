@@ -1,7 +1,9 @@
-Day 1 of React:
-  What is react?
-->Reactjs is a declarative, efficient and flexible javascript library for building reusable UI components. It is an open source, component based front end library which is responsible only for the view layer of the application. It was initally developed and maintained by Facebook.
+Day 1 of React.
+# React:
+React is an open-source library component based front end library responsible only for the view layer of the application. It is maintained by Facebook.
+Reactjs uses virtual DOM based mechanism to fill in data in HTML DOM. The virtual DOM works fast owning to the fact it only changes individual DOM elements instead of reloading complete DOM everytime.
+A react application is made up of multiple components, each responsible for outputing a small, reusable piece of HTML. Components can be nested within other component to allow complex application to be built out of simple building blocks. A component may also maintain internal state.
 
-  Why use reactJS?
--> The main objective of ReactJS is to develop User Interface(UI) that improves the speed of the apps. It uses virtual DOM(Javascript object) which impproves the performance of the app. 
+React allows us to write Components using a domain-specific language called JSX. JSX allows us to write our components using HTML, whilst mixing in javascrirpt events. React will internally converts this into a virtual DOM, and will ultimately output our HTML for us.
 
+Reacts 'reacts' to state changes in your components quickly and autonatically to render the components in the HTML DOM by utilizing the virtual DOM. The virtual DOM is an memory-reperesentation of an actual DOM. By doing most of the processing inside the virutal DOM rather than directly in the browser's DOM. React can act quickly and only add, update and remove components which have changed since the last render cycle occured.
